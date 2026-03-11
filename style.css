@@ -75,7 +75,12 @@ nav{
 
 
     cursor: pointer;
+    transition: 150ms ease;
 
+}
+
+.button-1:hover{
+    scale: 1.25;
 }
 
 nav .button-1 {
@@ -233,8 +238,14 @@ nav .button-1 {
     background-color: transparent;
 
     cursor: pointer;
+    transition: 150ms;
 }
 
+
+#button-2:hover{
+    scale: 1.25;
+    background-color: #1A0B2E;
+}
 
 
 
